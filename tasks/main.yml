@@ -1,0 +1,10 @@
+---
+# put_hostname_into_index_html/tasks/main.yml
+
+- name: "Put hostname into {{ path_to_index_html }}"
+  copy:
+    dest: "{{ path_to_index_html }}"
+    content: "{{ ansible_hostname }}\n"
+    owner: 'root'
+    group: 'root'
+    mode: '0644'
