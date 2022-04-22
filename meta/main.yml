@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'put_hostname_into_index_html'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Puts the hostname into a index.html (used by apache or nginx) '
   company: 'B1 Systems GmbH'
