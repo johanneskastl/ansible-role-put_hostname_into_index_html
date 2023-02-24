@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.put_hostname_into_index_html' }
+         - role: 'johanneskastl.put_hostname_into_index_html'
 
 License
 -------
